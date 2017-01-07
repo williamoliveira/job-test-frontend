@@ -1,0 +1,76 @@
+.Calendar {
+    padding: 14px !important;
+    padding-bottom: 0 !important;
+}
+
+.Calendar .calendar-header {
+    padding-bottom: 14px;
+}
+
+.Calendar .day-of-week {
+    background-color: #DDD;
+    font-weight: bold;
+}
+
+.Calendar .day-of-week.weekend {
+    background-color: #880000;
+    color: #FFF;
+}
+
+.Calendar .day-of-month,
+.Calendar .inventory-cel,
+.Calendar .price-cel,
+.Calendar .inventory-label,
+.Calendar .price-label {
+    padding: 10px 0;
+}
+
+.Calendar .inventory-label,
+.Calendar .price-label {
+    padding-left: 14px;
+}
+
+.Calendar .day-of-month:first-child,
+.Calendar .day-of-month:first-child,
+.Calendar .inventory-cel:first-child,
+.Calendar .price-cel:first-child {
+    border-left: solid 1px #E2E2DF;
+}
+
+.Calendar .day-of-week,
+.Calendar .day-of-month,
+.Calendar .inventory-cel,
+.Calendar .price-cel {
+    border-right: solid 1px #E2E2DF;
+}
+
+.Calendar .inventory-cel {
+    background-color: #EEE;
+}
+
+.Calendar .vehicle-row {
+    padding: 10px 0;
+}
+
+.Calendar .vehicle-row.odd {
+    background-color: #C6C68D;
+}
+.Calendar .vehicle-row.even {
+    background-color: #CAE7EF;
+}
+
+
+.fade-leave {
+    opacity: 1;
+}
+.fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+.fade-enter {
+    opacity: 0.01;
+}
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in 300ms;
+}

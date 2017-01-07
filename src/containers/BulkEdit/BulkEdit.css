@@ -1,0 +1,7 @@
+.BulkEdit{
+
+}
+
+.BulkEdit .datepicker-radius {
+  border-radius: 4px 0 0 4px !important;
+}

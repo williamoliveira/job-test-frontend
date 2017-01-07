@@ -1,0 +1,2647 @@
+exports[`(Component) Calendar should match snapshot 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Well
+    bsClass="well"
+    className="Calendar">
+    <Row
+        bsClass="row"
+        className="calendar-header"
+        componentClass="div">
+        <Col
+            bsClass="col"
+            className="text-center"
+            componentClass="div"
+            md={9}
+            mdOffset={3}>
+            <span
+                className="m-r-md pointer"
+                id="previous-interval"
+                onClick={[Function]}>
+                <Glyphicon
+                    bsClass="glyphicon"
+                    glyph="arrow-left" />
+            </span>
+            <b>
+                January 2017
+                true
+            </b>
+            <span
+                className="m-l-md pointer"
+                id="next-interval"
+                onClick={[Function]}>
+                <Glyphicon
+                    bsClass="glyphicon"
+                    glyph="arrow-right" />
+            </span>
+        </Col>
+    </Row>
+    <Row
+        bsClass="row"
+        componentClass="div">
+        <Col
+            bsClass="col"
+            componentClass="div"
+            md={2}>
+            <b>
+                Price and availability
+            </b>
+        </Col>
+        <Col
+            bsClass="col"
+            componentClass="div"
+            md={10}>
+            <div>
+                <Col
+                    bsClass="col"
+                    className="text-center day-of-week weekend"
+                    componentClass="div"
+                    md={1}>
+                    Sat
+                </Col>
+                <Col
+                    bsClass="col"
+                    className="text-center day-of-week weekend"
+                    componentClass="div"
+                    md={1}>
+                    Sun
+                </Col>
+            </div>
+            <div>
+                <Col
+                    bsClass="col"
+                    className="text-center day-of-month"
+                    componentClass="div"
+                    md={1}>
+                    7
+                </Col>
+                <Col
+                    bsClass="col"
+                    className="text-center day-of-month"
+                    componentClass="div"
+                    md={1}>
+                    8
+                </Col>
+            </div>
+        </Col>
+    </Row>
+    <div>
+        <Row
+            bsClass="row"
+            className="vehicle-row odd"
+            componentClass="div">
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={12}>
+                <b>
+                    Semi-trailer truck
+                </b>
+            </Col>
+        </Row>
+        <Row
+            bsClass="row"
+            className="inventory-row"
+            componentClass="div">
+            <Col
+                bsClass="col"
+                className="inventory-label"
+                componentClass="div"
+                md={2}>
+                Vehicles available
+            </Col>
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={10}>
+                <Col
+                    bsClass="col"
+                    className="text-center inventory-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="inventory-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={2}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            2
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+                <Col
+                    bsClass="col"
+                    className="text-center inventory-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="inventory-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={3}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            3
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+            </Col>
+        </Row>
+        <Row
+            bsClass="row"
+            className="price-row"
+            componentClass="div">
+            <Col
+                bsClass="col"
+                className="price-label"
+                componentClass="div"
+                md={2}>
+                Price (
+                USD
+                )
+            </Col>
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={10}>
+                <Col
+                    bsClass="col"
+                    className="text-center price-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="price-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={5000}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            5000
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+                <Col
+                    bsClass="col"
+                    className="text-center price-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="price-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={6000}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            6000
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+            </Col>
+        </Row>
+    </div>
+    <div>
+        <Row
+            bsClass="row"
+            className="vehicle-row even"
+            componentClass="div">
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={12}>
+                <b>
+                    20 foot swap-body truck
+                </b>
+            </Col>
+        </Row>
+        <Row
+            bsClass="row"
+            className="inventory-row"
+            componentClass="div">
+            <Col
+                bsClass="col"
+                className="inventory-label"
+                componentClass="div"
+                md={2}>
+                Vehicles available
+            </Col>
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={10}>
+                <Col
+                    bsClass="col"
+                    className="text-center inventory-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="inventory-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={9}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            9
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+                <Col
+                    bsClass="col"
+                    className="text-center inventory-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="inventory-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={9}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            9
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+            </Col>
+        </Row>
+        <Row
+            bsClass="row"
+            className="price-row"
+            componentClass="div">
+            <Col
+                bsClass="col"
+                className="price-label"
+                componentClass="div"
+                md={2}>
+                Price (
+                EUR
+                )
+            </Col>
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={10}>
+                <Col
+                    bsClass="col"
+                    className="text-center price-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="price-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={2345}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            2345
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+                <Col
+                    bsClass="col"
+                    className="text-center price-cel"
+                    componentClass="div"
+                    md={1}>
+                    <OverlayTrigger
+                        defaultOverlayShown={false}
+                        overlay={
+                            <Popover
+                                bsClass="popover"
+                                id="price-popup"
+                                placement="right">
+                                <FormGroup
+                                    bsClass="form-group">
+                                    <InputGroup
+                                        bsClass="input-group">
+                                        <FormControl
+                                            bsClass="form-control"
+                                            componentClass="input"
+                                            defaultValue={2345}
+                                            inputRef={[Function]}
+                                            min={0}
+                                            type="number" />
+                                        <Button
+                                            active={false}
+                                            block={false}
+                                            bsClass="btn"
+                                            bsStyle="default"
+                                            componentClass={[Function]}
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            style={
+                                                Object {
+                                                    "fontSize": 14,
+                                                  }
+                                            }>
+                                            <Glyphicon
+                                                bsClass="glyphicon"
+                                                glyph="ok" />
+                                        </Button>
+                                    </InputGroup>
+                                </FormGroup>
+                            </Popover>
+                        }
+                        placement="top"
+                        rootClose={true}
+                        trigger="click">
+                        <span
+                            className="pointer dashed">
+                            2345
+                        </span>
+                    </OverlayTrigger>
+                </Col>
+            </Col>
+        </Row>
+    </div>
+</Well>,
+  "nodes": Array [
+    <Well
+      bsClass="well"
+      className="Calendar">
+      <Row
+            bsClass="row"
+            className="calendar-header"
+            componentClass="div">
+            <Col
+                  bsClass="col"
+                  className="text-center"
+                  componentClass="div"
+                  md={9}
+                  mdOffset={3}>
+                  <span
+                        className="m-r-md pointer"
+                        id="previous-interval"
+                        onClick={[Function]}>
+                        <Glyphicon
+                              bsClass="glyphicon"
+                              glyph="arrow-left" />
+                  </span>
+                  <b>
+                        January 2017
+                        true
+                  </b>
+                  <span
+                        className="m-l-md pointer"
+                        id="next-interval"
+                        onClick={[Function]}>
+                        <Glyphicon
+                              bsClass="glyphicon"
+                              glyph="arrow-right" />
+                  </span>
+            </Col>
+      </Row>
+      <Row
+            bsClass="row"
+            componentClass="div">
+            <Col
+                  bsClass="col"
+                  componentClass="div"
+                  md={2}>
+                  <b>
+                        Price and availability
+                  </b>
+            </Col>
+            <Col
+                  bsClass="col"
+                  componentClass="div"
+                  md={10}>
+                  <div>
+                        <Col
+                              bsClass="col"
+                              className="text-center day-of-week weekend"
+                              componentClass="div"
+                              md={1}>
+                              Sat
+                        </Col>
+                        <Col
+                              bsClass="col"
+                              className="text-center day-of-week weekend"
+                              componentClass="div"
+                              md={1}>
+                              Sun
+                        </Col>
+                  </div>
+                  <div>
+                        <Col
+                              bsClass="col"
+                              className="text-center day-of-month"
+                              componentClass="div"
+                              md={1}>
+                              7
+                        </Col>
+                        <Col
+                              bsClass="col"
+                              className="text-center day-of-month"
+                              componentClass="div"
+                              md={1}>
+                              8
+                        </Col>
+                  </div>
+            </Col>
+      </Row>
+      <div>
+            <Row
+                  bsClass="row"
+                  className="vehicle-row odd"
+                  componentClass="div">
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={12}>
+                        <b>
+                              Semi-trailer truck
+                        </b>
+                  </Col>
+            </Row>
+            <Row
+                  bsClass="row"
+                  className="inventory-row"
+                  componentClass="div">
+                  <Col
+                        bsClass="col"
+                        className="inventory-label"
+                        componentClass="div"
+                        md={2}>
+                        Vehicles available
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={10}>
+                        <Col
+                              bsClass="col"
+                              className="text-center inventory-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="inventory-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={2}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          2
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                        <Col
+                              bsClass="col"
+                              className="text-center inventory-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="inventory-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={3}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          3
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                  </Col>
+            </Row>
+            <Row
+                  bsClass="row"
+                  className="price-row"
+                  componentClass="div">
+                  <Col
+                        bsClass="col"
+                        className="price-label"
+                        componentClass="div"
+                        md={2}>
+                        Price (
+                        USD
+                        )
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={10}>
+                        <Col
+                              bsClass="col"
+                              className="text-center price-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="price-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={5000}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          5000
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                        <Col
+                              bsClass="col"
+                              className="text-center price-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="price-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={6000}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          6000
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                  </Col>
+            </Row>
+      </div>
+      <div>
+            <Row
+                  bsClass="row"
+                  className="vehicle-row even"
+                  componentClass="div">
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={12}>
+                        <b>
+                              20 foot swap-body truck
+                        </b>
+                  </Col>
+            </Row>
+            <Row
+                  bsClass="row"
+                  className="inventory-row"
+                  componentClass="div">
+                  <Col
+                        bsClass="col"
+                        className="inventory-label"
+                        componentClass="div"
+                        md={2}>
+                        Vehicles available
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={10}>
+                        <Col
+                              bsClass="col"
+                              className="text-center inventory-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="inventory-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={9}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          9
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                        <Col
+                              bsClass="col"
+                              className="text-center inventory-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="inventory-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={9}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          9
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                  </Col>
+            </Row>
+            <Row
+                  bsClass="row"
+                  className="price-row"
+                  componentClass="div">
+                  <Col
+                        bsClass="col"
+                        className="price-label"
+                        componentClass="div"
+                        md={2}>
+                        Price (
+                        EUR
+                        )
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={10}>
+                        <Col
+                              bsClass="col"
+                              className="text-center price-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="price-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={2345}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          2345
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                        <Col
+                              bsClass="col"
+                              className="text-center price-cel"
+                              componentClass="div"
+                              md={1}>
+                              <OverlayTrigger
+                                    defaultOverlayShown={false}
+                                    overlay={
+                                          <Popover
+                                                bsClass="popover"
+                                                id="price-popup"
+                                                placement="right">
+                                                <FormGroup
+                                                      bsClass="form-group">
+                                                      <InputGroup
+                                                            bsClass="input-group">
+                                                            <FormControl
+                                                                  bsClass="form-control"
+                                                                  componentClass="input"
+                                                                  defaultValue={2345}
+                                                                  inputRef={[Function]}
+                                                                  min={0}
+                                                                  type="number" />
+                                                            <Button
+                                                                  active={false}
+                                                                  block={false}
+                                                                  bsClass="btn"
+                                                                  bsStyle="default"
+                                                                  componentClass={[Function]}
+                                                                  disabled={false}
+                                                                  onClick={[Function]}
+                                                                  style={
+                                                                        Object {
+                                                                              "fontSize": 14,
+                                                                            }
+                                                                  }>
+                                                                  <Glyphicon
+                                                                        bsClass="glyphicon"
+                                                                        glyph="ok" />
+                                                            </Button>
+                                                      </InputGroup>
+                                                </FormGroup>
+                                          </Popover>
+                                    }
+                                    placement="top"
+                                    rootClose={true}
+                                    trigger="click">
+                                    <span
+                                          className="pointer dashed">
+                                          2345
+                                    </span>
+                              </OverlayTrigger>
+                        </Col>
+                  </Col>
+            </Row>
+      </div>
+</Well>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Calendar
+        dates={
+                Array [
+                        Object {
+                          "date": "2017-01-07T05:19:04+00:00",
+                          "schedules": Object {
+                            "1": Object {
+                              "inventory": 2,
+                              "price": 5000,
+                            },
+                            "2": Object {
+                              "inventory": 9,
+                              "price": 2345,
+                            },
+                          },
+                        },
+                        Object {
+                          "date": "2017-01-08T05:19:04+00:00",
+                          "schedules": Object {
+                            "1": Object {
+                              "inventory": 3,
+                              "price": 6000,
+                            },
+                            "2": Object {
+                              "inventory": 9,
+                              "price": 2345,
+                            },
+                          },
+                        },
+                      ]
+        }
+        fetchManyDates={[Function]}
+        fetchManyVehicles={[Function]}
+        nextInterval={[Function]}
+        previousInterval={[Function]}
+        saveDate={[Function]}
+        vehicles={
+                Array [
+                        Object {
+                          "currency": "USD",
+                          "id": 1,
+                          "name": "Semi-trailer truck",
+                        },
+                        Object {
+                          "currency": "EUR",
+                          "id": 2,
+                          "name": "20 foot swap-body truck",
+                        },
+                      ]
+        } />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Calendar {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "dates": Array [
+            Object {
+              "date": "2017-01-07T05:19:04+00:00",
+              "schedules": Object {
+                "1": Object {
+                  "inventory": 2,
+                  "price": 5000,
+                },
+                "2": Object {
+                  "inventory": 9,
+                  "price": 2345,
+                },
+              },
+            },
+            Object {
+              "date": "2017-01-08T05:19:04+00:00",
+              "schedules": Object {
+                "1": Object {
+                  "inventory": 3,
+                  "price": 6000,
+                },
+                "2": Object {
+                  "inventory": 9,
+                  "price": 2345,
+                },
+              },
+            },
+          ],
+          "fetchManyDates": [Function],
+          "fetchManyVehicles": [Function],
+          "nextInterval": [Function],
+          "previousInterval": [Function],
+          "saveDate": [Function],
+          "vehicles": Array [
+            Object {
+              "currency": "USD",
+              "id": 1,
+              "name": "Semi-trailer truck",
+            },
+            Object {
+              "currency": "EUR",
+              "id": 2,
+              "name": "20 foot swap-body truck",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <Well
+          bsClass="well"
+          className="Calendar">
+          <Row
+                    bsClass="row"
+                    className="calendar-header"
+                    componentClass="div">
+                    <Col
+                              bsClass="col"
+                              className="text-center"
+                              componentClass="div"
+                              md={9}
+                              mdOffset={3}>
+                              <span
+                                        className="m-r-md pointer"
+                                        id="previous-interval"
+                                        onClick={[Function]}>
+                                        <Glyphicon
+                                                  bsClass="glyphicon"
+                                                  glyph="arrow-left" />
+                              </span>
+                              <b>
+                                        January 2017
+                                        true
+                              </b>
+                              <span
+                                        className="m-l-md pointer"
+                                        id="next-interval"
+                                        onClick={[Function]}>
+                                        <Glyphicon
+                                                  bsClass="glyphicon"
+                                                  glyph="arrow-right" />
+                              </span>
+                    </Col>
+          </Row>
+          <Row
+                    bsClass="row"
+                    componentClass="div">
+                    <Col
+                              bsClass="col"
+                              componentClass="div"
+                              md={2}>
+                              <b>
+                                        Price and availability
+                              </b>
+                    </Col>
+                    <Col
+                              bsClass="col"
+                              componentClass="div"
+                              md={10}>
+                              <div>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-week weekend"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  Sat
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-week weekend"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  Sun
+                                        </Col>
+                              </div>
+                              <div>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-month"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  7
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-month"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  8
+                                        </Col>
+                              </div>
+                    </Col>
+          </Row>
+          <div>
+                    <Row
+                              bsClass="row"
+                              className="vehicle-row odd"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}>
+                                        <b>
+                                                  Semi-trailer truck
+                                        </b>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="inventory-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="inventory-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Vehicles available
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={2}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      2
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={3}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      3
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="price-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="price-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Price (
+                                        USD
+                                        )
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={5000}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      5000
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={6000}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      6000
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+          </div>
+          <div>
+                    <Row
+                              bsClass="row"
+                              className="vehicle-row even"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}>
+                                        <b>
+                                                  20 foot swap-body truck
+                                        </b>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="inventory-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="inventory-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Vehicles available
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={9}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      9
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={9}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      9
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="price-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="price-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Price (
+                                        EUR
+                                        )
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={2345}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      2345
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={2345}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      2345
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+          </div>
+</Well>,
+        "_debugID": 4,
+        "_renderedOutput": <Well
+          bsClass="well"
+          className="Calendar">
+          <Row
+                    bsClass="row"
+                    className="calendar-header"
+                    componentClass="div">
+                    <Col
+                              bsClass="col"
+                              className="text-center"
+                              componentClass="div"
+                              md={9}
+                              mdOffset={3}>
+                              <span
+                                        className="m-r-md pointer"
+                                        id="previous-interval"
+                                        onClick={[Function]}>
+                                        <Glyphicon
+                                                  bsClass="glyphicon"
+                                                  glyph="arrow-left" />
+                              </span>
+                              <b>
+                                        January 2017
+                                        true
+                              </b>
+                              <span
+                                        className="m-l-md pointer"
+                                        id="next-interval"
+                                        onClick={[Function]}>
+                                        <Glyphicon
+                                                  bsClass="glyphicon"
+                                                  glyph="arrow-right" />
+                              </span>
+                    </Col>
+          </Row>
+          <Row
+                    bsClass="row"
+                    componentClass="div">
+                    <Col
+                              bsClass="col"
+                              componentClass="div"
+                              md={2}>
+                              <b>
+                                        Price and availability
+                              </b>
+                    </Col>
+                    <Col
+                              bsClass="col"
+                              componentClass="div"
+                              md={10}>
+                              <div>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-week weekend"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  Sat
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-week weekend"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  Sun
+                                        </Col>
+                              </div>
+                              <div>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-month"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  7
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center day-of-month"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  8
+                                        </Col>
+                              </div>
+                    </Col>
+          </Row>
+          <div>
+                    <Row
+                              bsClass="row"
+                              className="vehicle-row odd"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}>
+                                        <b>
+                                                  Semi-trailer truck
+                                        </b>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="inventory-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="inventory-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Vehicles available
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={2}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      2
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={3}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      3
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="price-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="price-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Price (
+                                        USD
+                                        )
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={5000}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      5000
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={6000}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      6000
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+          </div>
+          <div>
+                    <Row
+                              bsClass="row"
+                              className="vehicle-row even"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}>
+                                        <b>
+                                                  20 foot swap-body truck
+                                        </b>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="inventory-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="inventory-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Vehicles available
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={9}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      9
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center inventory-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="inventory-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={9}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      9
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+                    <Row
+                              bsClass="row"
+                              className="price-row"
+                              componentClass="div">
+                              <Col
+                                        bsClass="col"
+                                        className="price-label"
+                                        componentClass="div"
+                                        md={2}>
+                                        Price (
+                                        EUR
+                                        )
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={10}>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={2345}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      2345
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                                        <Col
+                                                  bsClass="col"
+                                                  className="text-center price-cel"
+                                                  componentClass="div"
+                                                  md={1}>
+                                                  <OverlayTrigger
+                                                            defaultOverlayShown={false}
+                                                            overlay={
+                                                                      <Popover
+                                                                                bsClass="popover"
+                                                                                id="price-popup"
+                                                                                placement="right">
+                                                                                <FormGroup
+                                                                                          bsClass="form-group">
+                                                                                          <InputGroup
+                                                                                                    bsClass="input-group">
+                                                                                                    <FormControl
+                                                                                                              bsClass="form-control"
+                                                                                                              componentClass="input"
+                                                                                                              defaultValue={2345}
+                                                                                                              inputRef={[Function]}
+                                                                                                              min={0}
+                                                                                                              type="number" />
+                                                                                                    <Button
+                                                                                                              active={false}
+                                                                                                              block={false}
+                                                                                                              bsClass="btn"
+                                                                                                              bsStyle="default"
+                                                                                                              componentClass={[Function]}
+                                                                                                              disabled={false}
+                                                                                                              onClick={[Function]}
+                                                                                                              style={
+                                                                                                                        Object {
+                                                                                                                                  "fontSize": 14,
+                                                                                                                                }
+                                                                                                              }>
+                                                                                                              <Glyphicon
+                                                                                                                        bsClass="glyphicon"
+                                                                                                                        glyph="ok" />
+                                                                                                    </Button>
+                                                                                          </InputGroup>
+                                                                                </FormGroup>
+                                                                      </Popover>
+                                                            }
+                                                            placement="top"
+                                                            rootClose={true}
+                                                            trigger="click">
+                                                            <span
+                                                                      className="pointer dashed">
+                                                                      2345
+                                                            </span>
+                                                  </OverlayTrigger>
+                                        </Col>
+                              </Col>
+                    </Row>
+          </div>
+</Well>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Calendar
+    dates={
+        Array [
+            Object {
+              "date": "2017-01-07T05:19:04+00:00",
+              "schedules": Object {
+                "1": Object {
+                  "inventory": 2,
+                  "price": 5000,
+                },
+                "2": Object {
+                  "inventory": 9,
+                  "price": 2345,
+                },
+              },
+            },
+            Object {
+              "date": "2017-01-08T05:19:04+00:00",
+              "schedules": Object {
+                "1": Object {
+                  "inventory": 3,
+                  "price": 6000,
+                },
+                "2": Object {
+                  "inventory": 9,
+                  "price": 2345,
+                },
+              },
+            },
+          ]
+    }
+    fetchManyDates={[Function]}
+    fetchManyVehicles={[Function]}
+    nextInterval={[Function]}
+    previousInterval={[Function]}
+    saveDate={[Function]}
+    vehicles={
+        Array [
+            Object {
+              "currency": "USD",
+              "id": 1,
+              "name": "Semi-trailer truck",
+            },
+            Object {
+              "currency": "EUR",
+              "id": 2,
+              "name": "20 foot swap-body truck",
+            },
+          ]
+    } />,
+}
+`;

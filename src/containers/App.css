@@ -1,0 +1,16 @@
+.pointer {
+    cursor: pointer;
+}
+
+.m-t-md { margin-top:    20px; }
+.m-b-md { margin-bottom: 20px; }
+.m-l-md { margin-left:   20px; }
+.m-r-md { margin-right:  20px; }
+.m-t-none { margin-top: 0 !important;}
+
+.m-t-lg { margin-top:    30px; }
+
+.dashed {
+    border-bottom: dashed 1px #8a8a8a;
+}
+
