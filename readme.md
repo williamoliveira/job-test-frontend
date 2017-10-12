@@ -2,7 +2,7 @@
 https://williamoliveira.github.io/react-demo-frontend/
 
 ## Installation
-- Clone the repo `git clone git@github.com:williamoliveira/react-demo-frontend.git job-test-frontend`
+- Clone the repo `git clone git@github.com:williamoliveira/react-demo-frontend.git react-demo-frontend`
 - Navigate to it `cd react-demo-frontend`
 - Install dependencies `yarn install` or `npm install`
 - Change API_URL on src/config.js
